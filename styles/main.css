@@ -91,17 +91,23 @@ ul{
   list-style: none;
   padding: 0%;
 }
-/* Our Services */
-.services_wrapper h2{
-  text-align: center;
-}
-.services_wrapper ul{
+.wrapper{
   margin: auto;
-  padding: 90px;
+  padding: 0px 90px 0px 90px;
+  width: 70%
+}
+/* Our Services */
+
+/* .services h2{
+  text-align: center;
+  padding: 40px 0px 90px 0px;
+} */
+.services ul{
+  /* padding: 90px; */
   display: flex;
   text-align: center;
 }
-.services_wrapper .fas{
+.services .fas{
   width:60px;
   height: 60px;
   font-size: 40px;
@@ -112,12 +118,14 @@ ul{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
-section ~ h2{
+section ~ h2 ,h2{
   text-align: center;
   width: 100%;
-  margin-bottom: 100px;
+  padding: 40px 0px 90px 0px;
+  /* padding: 0px 0px 90px 0px; */
+  /* margin-bottom: 100px; */
   
 }
 .recent_work img{
@@ -127,14 +135,14 @@ section ~ h2{
   margin: 0px;
 }
 /* Our testimonials */
-.testimonials_wrapper ul{
-  margin: auto;
-  padding: 0px 90px 0px 90px;
+.testimonials ul{
+  
+  /* padding: 0px 90px 0px 90px; */
   display: flex;
   text-align: center;
-  width: 70%
+  /* width: 70% */
 }
-.testimonials_wrapper img{
+.testimonials img{
   width:60px;
   height: 60px;
   border-radius: 20px;
@@ -148,7 +156,7 @@ pre{
 
 /* footer */
 
-footer{
+.footer_widget{
   background-color:#26272b;
   display: flex;
   flex-direction: row;
@@ -157,22 +165,23 @@ footer{
   margin: auto;
   padding: 120px 120px 0px 120px;
   color: white; 
+  
 }
-footer div{
+.footer_widget div{
   font-size: smaller;
 }
-footer div h4{
+.footer_widget div h4{
   font-size: medium;
 }
-footer a{
+.footer_widget a{
   color: white;
 }
-footer :nth-child(-n+4){
+.footer_widget :nth-child(-n+4){
   width: 25%;
   padding: 0px;
   margin: 0px;
 }
-footer :nth-child(5){
+.footer_widget :nth-child(5){
   margin-bottom: 0px;
   width: 35%;
   padding: 0px;
