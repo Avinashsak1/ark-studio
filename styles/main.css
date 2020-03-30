@@ -212,10 +212,13 @@ background-color: black;
 color: white;
 margin: auto;
 }
-footer p{
+footer .rights{
   background-color:#26272b;
   text-align: center;
   margin: 0px;
   padding: 0px;
   color: white;
+}
+footer .fas{
+  display:inline;
 }
